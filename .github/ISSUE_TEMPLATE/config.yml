@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: License, payment or refund
+    url: https://batteryonpc.com/contact
+    about: Private questions go by email, never in a public issue.
+  - name: Compatible devices
+    url: https://batteryonpc.com/compatibility
+    about: Check the list before requesting a device.

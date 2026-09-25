@@ -1,0 +1,69 @@
+name: Device request
+description: A controller, mouse, keyboard or headset that BatteryOnPC does not read yet
+title: "[Device] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping widen compatibility! Please check the [compatibility list](https://batteryonpc.com/compatibility) first.
+        Never post your license key or purchase email here.
+  - type: input
+    id: model
+    attributes:
+      label: Device model
+      description: Brand and exact model, as written on the box or under the device.
+      placeholder: "Example: Razer Barracuda X (2022)"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Device type
+      options:
+        - Controller
+        - Mouse
+        - Keyboard
+        - Headset
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Connection
+      multiple: true
+      options:
+        - USB cable
+        - Wireless receiver (dongle)
+        - Bluetooth
+        - Base station
+    validations:
+      required: true
+  - type: textarea
+    id: hwid
+    attributes:
+      label: Hardware IDs
+      description: "Device Manager › your device › Properties › Details › Hardware Ids. Copy the lines that look like HID\\VID_xxxx&PID_xxxx."
+      render: text
+  - type: dropdown
+    id: shows
+    attributes:
+      label: What BatteryOnPC shows
+      options:
+        - The device is not in the list
+        - A "?" instead of a level
+        - A wrong level
+        - I have not installed it yet
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: BatteryOnPC version
+      placeholder: "Example: 2.0.10"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Does the manufacturer's software (G HUB, Synapse, iCUE, SteelSeries GG…) show a battery level for this device?
