@@ -17,9 +17,11 @@
   <a href="CHANGELOG.md">Changelog</a>
 </p>
 
-<!-- Screenshot to add: assets/screenshot.png (taskbar icons and a low battery notification), then remove these comment marks:
-<p align="center"><img alt="BatteryOnPC icons in the Windows taskbar" src="assets/screenshot.png" width="720"></p>
--->
+<p align="center">
+  <img alt="BatteryOnPC icons in the Windows taskbar, the tooltip shows a wireless mouse at 35%" src="assets/screenshot-taskbar.png" width="346">
+  &nbsp;
+  <img alt="BatteryOnPC low battery notification for a DualSense at 40%" src="assets/screenshot-notification.png" width="379">
+</p>
 
 BatteryOnPC is a small Windows 10 and 11 app that keeps the battery level of your game controllers, mice, keyboards and headsets in the taskbar, with one icon per device, and warns you before a battery dies.
 
@@ -49,6 +51,23 @@ Updates install automatically. Full history in the [changelog](CHANGELOG.md).
 - **DualSense mute button**: it can mute and unmute your PC microphone (off by default).
 - **8 languages**: English, French, Spanish, German, Arabic, Russian, Chinese, Japanese.
 - **Automatic updates.**
+
+## Screenshots
+
+<p align="center">
+  <img alt="Overview tab with a DualSense at 40% and a wireless mouse at 35%" src="assets/screenshot-overview.png" width="800"><br>
+  <sub>Overview: every device you track, with its level.</sub>
+</p>
+
+<p align="center">
+  <img alt="Devices tab with the tracked devices, the scan for new devices and the anonymous diagnostics option" src="assets/screenshot-devices.png" width="800"><br>
+  <sub>Devices: controllers are detected automatically; mice, keyboards and headsets are added here.</sub>
+</p>
+
+<p align="center">
+  <img alt="Notifications tab with the alert threshold, connection, full charge and reminder settings" src="assets/screenshot-notifications.png" width="800"><br>
+  <sub>Notifications: separate settings for the controller and for each added device.</sub>
+</p>
 
 ## Supported devices
 
