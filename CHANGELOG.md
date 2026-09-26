@@ -2,6 +2,20 @@
 
 Updates install automatically. Download: [batteryonpc.com](https://batteryonpc.com)
 
+## 2.0.11 (September 26, 2026)
+
+Over 280 supported models: 77 more in the list.
+
+- **Headsets:** Logitech G930, HyperX Cloud III Wireless, Cloud III S Wireless, Cloud II Core Wireless and Cloud Stinger 2 Wireless, Sony INZONE H9 and INZONE H9 II, MCHOSE V9 Turbo+.
+- **Mice:** Corsair Dark Core RGB and Dark Core RGB SE, SteelSeries Aerox 3 Wireless Gen 2, HyperX Pulsefire Dart and Pulsefire Saga Pro, Sony INZONE Mouse-A, ATK A9, Razer Lancehead, five more WLMOUSE mice (HUAN, Strider, Ying, Beast Mini, Beast Mini Pro) and 37 older Logitech mice (MX Master, MX Anywhere 2, Performance MX, MX Air, G700s and more).
+- **Keyboards:** Corsair K63 Wireless and 18 older Logitech keyboards (K270, K400, K830, MK270 and more).
+
+Also in this version:
+
+- **A device that is off from the start now shows grey** instead of a "?", like any device that is off or out of range, and the help for unreadable devices no longer appears for it.
+- **Razer Nari:** the app now waits for the headset's actual reply and no longer takes an empty reply for a level.
+- **Sony INZONE H9 (first model):** read while INZONE Hub is closed, because INZONE Hub keeps the headset's connection to itself.
+
 ## 2.0.10 (September 25, 2026)
 
 Devices that were misread or not read:
