@@ -18,7 +18,7 @@ body:
     id: version
     attributes:
       label: BatteryOnPC version
-      placeholder: "Example: 2.0.11"
+      placeholder: "Example: 2.0.15"
     validations:
       required: true
   - type: input

@@ -33,8 +33,9 @@ Mice, keyboards and headsets have a different problem: their battery usually liv
 
 ## What's new
 
-- **2.0.11, over 280 models.** 77 more devices in the list, including the HyperX Cloud III, Sony INZONE H9 and H9 II, Logitech G930, Corsair Dark Core RGB and K63 Wireless, and more WLMOUSE mice. A device that is off from the start now shows grey instead of a "?".
-- **2.0.10, devices that were misread are fixed.** The GameSir Cyclone 2, which Windows sees as a wired controller without a battery, now shows its real level. The MCHOSE X9 headset no longer beeps every few seconds. VXE and Pulsar mice are read, and the first-generation DualShock 4 is recognized.
+- **2.0.15, four more Razer headsets.** BlackShark V2 HyperSpeed, Barracuda X Chroma, Kraken V4 Pro and Kraken Kitty V3 Pro, on their dongle or their USB-C cable.
+- **2.0.14, over 330 models.** 54 more, including 26 G-Wolves mice, 13 ASUS ROG and TUF mice, MonsGeek, Attack Shark and Womier keyboards, the HyperX Cloud Alpha 2, the SteelSeries Arctis Nova Elite and the JBL Quantum 910 Wireless.
+- **2.0.12, a sound per device.** An optional chime for each device's notifications, with its own volume, and a second controller now gets its taskbar icon by itself.
 
 Updates install automatically. Full history in the [changelog](CHANGELOG.md).
 
@@ -71,7 +72,9 @@ Updates install automatically. Full history in the [changelog](CHANGELOG.md).
 
 ## Supported devices
 
-Over 280 models, all read through public protocols. The up-to-date list is on [batteryonpc.com/compatibility](https://batteryonpc.com/compatibility).
+Over 340 models, all read through public protocols. The up-to-date list is on [batteryonpc.com/compatibility](https://batteryonpc.com/compatibility).
+
+How each brand reports its battery, the real precision and the models that cannot be read: [Logitech](https://batteryonpc.com/compatibility/logitech) · [Razer](https://batteryonpc.com/compatibility/razer) · [Corsair](https://batteryonpc.com/compatibility/corsair) · [SteelSeries](https://batteryonpc.com/compatibility/steelseries) · [HyperX](https://batteryonpc.com/compatibility/hyperx) · [Sony](https://batteryonpc.com/compatibility/sony) · [ASUS ROG](https://batteryonpc.com/compatibility/asus) · [G-Wolves](https://batteryonpc.com/compatibility/g-wolves) · [WLMOUSE](https://batteryonpc.com/compatibility/wlmouse) · [Audeze](https://batteryonpc.com/compatibility/audeze)
 
 ### Controllers
 
@@ -99,9 +102,9 @@ Added once from the app's Devices tab:
 
 | Type | Brands |
 |---|---|
-| Headsets (60+) | Logitech G, Astro, Razer, Corsair, SteelSeries, HyperX, Sony INZONE, Audeze, MCHOSE, and office headsets from Lenovo, Jabra and Poly |
-| Mice (130+) | Logitech (G and MX series), Razer, SteelSeries, Corsair, HyperX, Sony INZONE, ATK, VXE, Kysona, Pulsar and WLMOUSE |
-| Keyboards (50+) | Logitech (G and MX series), Razer and Corsair |
+| Headsets (70+) | Logitech G, Astro, Razer, Corsair, SteelSeries, HyperX, Sony INZONE, Audeze, MCHOSE, JBL, and office headsets from Lenovo, Jabra and Poly |
+| Mice (180+) | Logitech (G and MX series), Razer, SteelSeries, Corsair, HyperX, Sony INZONE, ASUS ROG and TUF, G-Wolves, WLMOUSE, ATK, VXE, Kysona, Pulsar, LAMZU, Hitscan, MCHOSE, Keychron and AJAZZ |
+| Keyboards (50+) | Logitech (G and MX series), Razer, Corsair, MonsGeek, Attack Shark and Womier |
 | Anything else | Any device that reports its battery over standard Bluetooth or HID |
 
 They are read through public protocols, model by model. Add them from the app: right-click the taskbar icon, then **Add a device (beta)**, or use **Scan for devices** in the Devices tab. Each one gets its own taskbar icon, with the same color code and the same alerts as your controller.
@@ -111,13 +114,14 @@ They are read through public protocols, model by model. Add them from the app: r
 
 - **Logitech G** (receiver): G733 Lightspeed, G935, G933, G533, G535 Lightspeed, PRO X Wireless, PRO X 2 Lightspeed, G522 Lightspeed, G930
 - **Astro** (base station): A50 (Gen 5)
-- **Razer** (receiver): Nari
+- **Razer** (receiver): Nari, BlackShark V2 Pro (2023), Barracuda Pro, BlackShark V2 HyperSpeed, Barracuda X Chroma, Kraken V4 Pro, Kraken Kitty V3 Pro
 - **Corsair** (receiver): Void Wireless, Void Pro Wireless, Void RGB Elite Wireless, HS70 Wireless, HS70 Pro Wireless, Virtuoso RGB Wireless XT, Virtuoso RGB Wireless SE, Void Wireless V2, Virtuoso Max Wireless, HS80 Max Wireless
-- **SteelSeries** (receiver): Arctis 1 Wireless, Arctis 1 Wireless (Xbox), Arctis 7, Arctis 7 (2019), Arctis 7P, Arctis 7X, Arctis 9, Arctis Pro Wireless, Arctis 7+, Arctis 7P+, Arctis 7X+, Arctis Nova 7, Arctis Nova 7X, Arctis Nova 7P, Arctis Nova 7 Gen 2, Arctis Nova 5, Arctis Nova 5X, Arctis Nova 3P Wireless, Arctis Nova 3X Wireless, Arctis Nova Pro Wireless, Arctis Nova Pro Wireless (Xbox), Arctis GameBuds
-- **HyperX** (receiver): Cloud II Wireless, Cloud Alpha Wireless, Cloud Flight, Cloud III Wireless, Cloud III S Wireless, Cloud II Core Wireless, Cloud Stinger 2 Wireless
+- **SteelSeries** (receiver): Arctis 1 Wireless, Arctis 1 Wireless (Xbox), Arctis 7, Arctis 7 (2019), Arctis 7P, Arctis 7X, Arctis 9, Arctis Pro Wireless, Arctis 7+, Arctis 7P+, Arctis 7X+, Arctis Nova 7, Arctis Nova 7X, Arctis Nova 7P, Arctis Nova 7 Gen 2, Arctis Nova 5, Arctis Nova 5X, Arctis Nova 3P Wireless, Arctis Nova 3X Wireless, Arctis Nova Pro Wireless, Arctis Nova Pro Wireless (Xbox), Arctis GameBuds, Arctis Nova Elite
+- **HyperX** (receiver): Cloud II Wireless, Cloud Alpha Wireless, Cloud Flight, Cloud III Wireless, Cloud III S Wireless, Cloud II Core Wireless, Cloud Stinger 2 Wireless, Cloud Alpha 2
 - **Sony INZONE** (receiver): INZONE H5, INZONE Buds, INZONE H9, INZONE H9 II
 - **Audeze** (receiver): Maxwell (PlayStation), Maxwell (Xbox), Maxwell 2 (PlayStation), Maxwell 2 (Xbox)
 - **MCHOSE** (receiver): X9 Wireless, V9 Turbo+
+- **JBL** (receiver): Quantum 910 Wireless
 - **Office** (USB or Bluetooth): Lenovo Wireless VoIP, Jabra Evolve2 (Link 390), Jabra Evolve2 65 Flex, Poly Voyager 8200 UC
 
 </details>
@@ -128,7 +132,7 @@ They are read through public protocols, model by model. Add them from the app: r
 - **Logitech** (receiver or Bluetooth): G PRO X Superlight, G PRO X Superlight 2, G PRO Wireless, G903 Lightspeed, G703 Lightspeed, G502 Lightspeed, G502 X Lightspeed, G502 X Plus, G900 Chaos Spectrum, G305 Lightspeed, G304 Lightspeed, G604 Lightspeed, MX Master 2S, MX Master 3, MX Master 3 for Mac, MX Master 3S, MX Anywhere 2S, MX Anywhere 3, MX Anywhere 3S, MX Vertical, MX Ergo, M720 Triathlon, M585 Multi-Device, M590 Multi-Device, Lift, Signature M650, Signature M750, M705 Marathon, M510, M310, M185, MX Master, MX Anywhere 2, Anywhere MX, Performance MX, MX Air, MX Revolution, VX Revolution, MX 1100, MX620, MX610, VX Nano, V400, V450, V450 Nano, V550 Nano, LX5, LX7, G7, G700, G700s, M550, EX100, M30, M305, M350, Pebble M350, M505, M515, M325, M525, M345, M187, M600, M150, M235, T650 (touchpad), Wireless Touchpad
 - **Razer** (receiver or Bluetooth): Viper V4 Pro, Viper V3 Pro, Viper V3 HyperSpeed, Viper V2 Pro, Viper Ultimate, Viper Mini SE, DeathAdder V4 Pro, DeathAdder V3 Pro, DeathAdder V3 HyperSpeed, DeathAdder V2 Pro, DeathAdder V2 X HyperSpeed, Basilisk Ultimate, Basilisk V3 Pro, Basilisk V3 Pro 35K, Basilisk V3 X HyperSpeed, Basilisk X HyperSpeed, Basilisk Mobile, Naga Pro, Naga V2 Pro, Naga V2 HyperSpeed, Naga Epic Chroma, Naga Epic, Cobra Pro, Orochi V2, Atheris, Pro Click, Pro Click Mini, Pro Click V2, Pro Click V2 Vertical Edition, Mamba Wireless, Mamba Chroma, Mamba (2012), Lancehead Wireless, Lancehead, Ouroboros
 - **SteelSeries** (receiver): Aerox 3 Wireless, Aerox 5 Wireless, Aerox 9 Wireless, Prime Wireless, Prime Mini Wireless, Rival 3 Wireless, Rival 3 Wireless Gen 2, Rival 650 Wireless, Aerox 3 Wireless Gen 2
-- **Corsair** (receiver): Ironclaw RGB Wireless, Dark Core RGB Pro, Dark Core RGB Pro SE, Harpoon RGB Wireless, Dark Core RGB, Dark Core RGB SE
+- **Corsair** (receiver): Ironclaw RGB Wireless, Ironclaw Wireless SE, Dark Core RGB Pro, Dark Core RGB Pro SE, Harpoon RGB Wireless, Dark Core RGB, Dark Core RGB SE
 - **HyperX** (receiver): Pulsefire Dart, Pulsefire Saga Pro
 - **Sony INZONE** (receiver): INZONE Mouse-A
 - **ATK** (receiver): A9, Mice with an 8K dongle (8000 Hz)
@@ -136,6 +140,13 @@ They are read through public protocols, model by model. Add them from the app: r
 - **Kysona** (receiver): M600
 - **Pulsar** (receiver): X2 V2, X2H, X2A, Xlite V3
 - **WLMOUSE** (receiver): Beast MAX 8K, Beast X Pro 8K, Beast X 8K, Sword X 8K, Miao 8K, HUAN, Strider, Ying, Beast Mini, Beast Mini Pro
+- **LAMZU** (receiver): Maya X
+- **G-Wolves** (receiver): HTS Plus, HTS Plus Pro, HTS Plus ACE, HTS Ultra, HT-S2, HT-S2 Pro, HTX, HTX ACE, HTX Mini, HTXU, HTM Plus, HTR, HTR Pro, HSK Pro, HSK Pro 2.0, HSK Pro ACE, HSK Plus, HSK Plus ACE, HSK Lite, Fenrir, Fenrir Asym, Fenrir Pro, Fenrir Max, Lycan, VUK, WARG
+- **Hitscan** (receiver): Hyperlight
+- **MCHOSE** (receiver): M7 Ultra, G7
+- **Keychron** (receiver): M5
+- **ASUS** (receiver): ROG Gladius III Wireless AimPoint, ROG Gladius III Wireless, ROG Chakram X, ROG Chakram, ROG Harpe Ace Aim Lab Edition, ROG Keris Wireless AimPoint, ROG Keris Wireless, ROG Spatha X, ROG Pugio II, ROG Strix Impact II Wireless, TUF Gaming M4 Wireless, TX Gaming Mouse, TX Gaming Mouse Mini
+- **AJAZZ** (receiver): AJ159 APEX
 
 </details>
 
@@ -145,6 +156,9 @@ They are read through public protocols, model by model. Add them from the app: r
 - **Logitech** (receiver or Bluetooth): G915 Lightspeed, G915 TKL, G915 X, G913 Lightspeed, G913 TKL, G715, PRO X 60, MX Keys, MX Keys S, MX Keys Mini, MX Mechanical, MX Mechanical Mini, Craft, Ergo K860, Wave Keys, POP Keys, K380, K780 Multi-Device, K800, K400 Plus, K360, G613 Lightspeed, MK540 Advanced, MK710, EX110, S510, K550, EX100, MK300, N545 (number pad), K340, MK700, K350, MK320, K520, K270, K230, K400, MK270, K830, K375s, K470
 - **Razer** (receiver or Bluetooth): BlackWidow V3 Pro, BlackWidow V3 Mini HyperSpeed, BlackWidow V4 Mini HyperSpeed, BlackWidow V4 TKL HyperSpeed, DeathStalker V2 Pro, DeathStalker V2 Pro TKL
 - **Corsair** (receiver): K57 RGB Wireless, K63 Wireless
+- **MonsGeek** (receiver): M1 V5 HE, M1 V5 TMR
+- **Attack Shark** (receiver): K86
+- **Womier** (receiver): 75 TMR
 
 </details>
 
@@ -163,7 +177,7 @@ With anonymous diagnostics left on in the app, the same technical sheet is sent 
 ## Download and price
 
 - **Windows 10 and 11 (x64).** The installer is about 60 MB, with everything bundled (.NET included).
-- **€3.99, one-time purchase.** Lifetime license for one PC at a time, no subscription. The license can move to a new PC once every 15 days.
+- **€4.89, one-time purchase.** Lifetime license for one PC at a time, no subscription. The license can move to a new PC once every 15 days.
 - Get it on **[batteryonpc.com](https://batteryonpc.com)**. Payment by Stripe; the download link arrives right after payment.
 
 ## Privacy

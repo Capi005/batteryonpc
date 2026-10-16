@@ -2,6 +2,32 @@
 
 Updates install automatically. Download: [batteryonpc.com](https://batteryonpc.com)
 
+## 2.0.15 (October 12, 2026)
+
+- **Four more Razer headsets:** BlackShark V2 HyperSpeed, Barracuda X Chroma, Kraken V4 Pro and Kraken Kitty V3 Pro, on their dongle or their USB-C cable. The app only reads their level, at most once a minute, so the headset is never disturbed.
+- **Bluetooth headsets without a battery interface:** when Windows itself knows the level of such a headset, the app can now read it from Windows. Early support: not every model reports it.
+
+## 2.0.14 (October 11, 2026)
+
+54 more supported models:
+
+- **Mice:** 26 G-Wolves mice (on the shared 8K receiver, their own receiver or the cable), 13 ASUS ROG and TUF mice, LAMZU Maya X, Hitscan Hyperlight, MCHOSE M7 Ultra and G7, Keychron M5, AJAZZ AJ159 APEX.
+- **Keyboards:** MonsGeek M1 V5 HE and M1 V5 TMR, Attack Shark K86 and Womier 75 TMR, on their 2.4 GHz dongle.
+- **Headsets:** Razer BlackShark V2 Pro (2023) and Barracuda Pro, HyperX Cloud Alpha 2, SteelSeries Arctis Nova Elite, JBL Quantum 910 Wireless.
+
+## 2.0.13 (October 10, 2026)
+
+- **DualSense Edge on a cable:** the mute button is now handled over USB too, not only over Bluetooth.
+
+## 2.0.12 (October 8, 2026)
+
+- **A sound per device:** each device can play a soft chime with its notifications, with its own volume. Off by default.
+- **A second controller gets its icon by itself:** connect another controller at the same time and its taskbar icon appears automatically.
+- **Clearer device settings:** in the Notifications tab, each device has its own card with a header.
+- **Corsair Ironclaw Wireless SE** is read, on its Slipstream receiver or its cable.
+- **Audeze Maxwell:** a headset that is turned off now shows grey, like any device that is off.
+- **Razer Wolverine V3 Pro:** shown under its own name instead of as a wired controller. Its battery still cannot be read on Windows.
+
 ## 2.0.11 (September 26, 2026)
 
 Over 280 supported models: 77 more in the list.
