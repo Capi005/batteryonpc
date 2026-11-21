@@ -177,7 +177,7 @@ With anonymous diagnostics left on in the app, the same technical sheet is sent 
 ## Download and price
 
 - **Windows 10 and 11 (x64).** The installer is about 60 MB, with everything bundled (.NET included).
-- **€4.89, one-time purchase.** Lifetime license for one PC at a time, no subscription. The license can move to a new PC once every 15 days.
+- **€7.89, one-time purchase.** Lifetime license for one PC at a time, no subscription. The license can move to a new PC once every 15 days.
 - Get it on **[batteryonpc.com](https://batteryonpc.com)**. Payment by Stripe; the download link arrives right after payment.
 
 ## Privacy
